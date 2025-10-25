@@ -95,7 +95,9 @@ Quitte le programme.
 /projet
 │── src/
 │   └── main.c   // Contient tout le code fourni
+
 │── README.md    // Documentation du projet
+
 │── Makefile     // (facultatif) Compilation automatique
 
 
