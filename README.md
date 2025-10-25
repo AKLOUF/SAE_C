@@ -114,9 +114,13 @@ Quitte le programme.
 3 = justifiée
 
 ## ✨ Améliorations possibles
+
 •	Sauvegarde/chargement des données dans un fichier .txt ou .csv.
+
 •	Interface graphique (GTK ou SDL).
+
 •	Séparation en plusieurs fichiers .h / .c.
+
 •	Gestion des erreurs utilisateur plus robuste.
 
 
