@@ -1,4 +1,4 @@
-#### 📘 Gestion des Absences – Projet C
+# 📘 Gestion des Absences – Projet C
 
 ## ✅ Description du projet
 
@@ -7,85 +7,85 @@ Il fonctionne sous forme d’un interpréteur de commandes dans le terminal.
 
 ## 📂 Structure principale
 
-# 🧑‍🎓 Structures de données
+## 🧑‍🎓 Structures de données
 
-# Etudiant
+### Etudiant
 Contient les informations de base d’un étudiant : nom, groupe, identifiant, nombre d’absences.
 
-# Absence
+### Absence
 Représente une absence d’un étudiant avec jour, demi-journée, statut et justificatif.
 
-# But
+### But
 Contient le tableau de tous les étudiants (Promotion).
 
-# Abs_But
+### Abs_But
 Contient toutes les absences enregistrées (Promotion_Abs).
 
 ## ⚙️ Fonctionnalités principales
 
-# inscription(nom, groupe)
+### inscription(nom, groupe)
 Inscrire un nouvel étudiant dans un groupe.
 
-# absence(id_etu, jour, dj)
+### absence(id_etu, jour, dj)
 Enregistrer une absence (dj = am ou pm).
 
-# justificatif(id_abs, jour, texte)
+### justificatif(id_abs, jour, texte)
 Déposer un justificatif pour une absence.
 
-# validation(id_abs, "ok"/"ko")
+### validation(id_abs, "ok"/"ko")
 Valider ou refuser un justificatif.
 
-# etudiants(jour)
+### etudiants(jour)
 Afficher tous les étudiants avec leur nombre d’absences au jour donné.
 
-# etudiant(id, jour)
+### etudiant(id, jour)
 Afficher le détail des absences d’un étudiant (triées par statut).
 
-# validations()
+### validations()
 Afficher les absences en attente de validation.
 
-# defaillants(jour)
+### defaillants(jour)
 Afficher les étudiants ayant ≥ 5 absences non justifiées.
 
-# exit_programme()
+### exit_programme()
 Quitter le programme.
 
 
 ## Commande disponibles dans le terminal
 
-# inscription
+### inscription
 inscription <nom> <groupe>
 Ajoute un étudiant.
 
-# absence
+### absence
 absence <id_etu> <jour> <am/pm>
 Enregistre une absence.
 
-# justificatif
+### justificatif
 justificatif <id_abs> <jour> <texte>
 Ajoute un justificatif.
 
-# validation
+### validation
 validation <id_abs> <ok/ko>
 Valide ou refuse le justificatif.
 
-# etudiants
+### etudiants
 etudiants <jour>
 Liste tous les étudiants triés.
 
-# etudiant
+### etudiant
 etudiant <id_etu> <jour>
 Affiche les absences détaillées d’un étudiant.
 
-# validations
+### validations
 validations
 Liste des absences en attente.
 
-# defaillants
+### defaillants
 defaillants <jour>
 Étudiants avec ≥5 absences non justifiées.
 
-# exit
+### exit
 exit
 Quitte le programme.
 
