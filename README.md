@@ -98,9 +98,6 @@ Quitte le programme.
 
 │── README.md    // Documentation du projet
 
-│── Makefile     // (facultatif) Compilation automatique
-
-
 ## 📌 Règles de gestion
 
 •	Jour valide : entre 1 et 40.
